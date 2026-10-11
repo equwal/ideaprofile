@@ -1,0 +1,34 @@
+{
+  "name": "ideaprofile",
+  "version": "1.0.0",
+  "description": "Token use and price (ccusage), the prompt log, the flow of ideas, and the memories of memstate, for the ideamine dashboard",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.js"
+  },
+  "files": [
+    "src",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equwal/ideaprofile.git"
+  },
+  "homepage": "https://github.com/equwal/ideaprofile",
+  "author": "equwal",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["claude-code", "usage", "ccusage", "ideamine"],
+  "dependencies": {
+    "ccusage": "20.0.29",
+    "ideahook": "github:equwal/ideahook#v1.0.1"
+  },
+  "devDependencies": {
+    "fast-check": "^4.10.2"
+  }
+}
